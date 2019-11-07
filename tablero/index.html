@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Chat aplication</title>
+</head>
+<body>
+    <nav class="darken-3 blue">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="brand-logo">LOGO</a>
+          <ul class="right ">
+            <li><a href="#">Hola <span>Eduardo</span></a></li>
+            <li><a href="#" class="waves-efect btn darken-3 red">&times;</a></li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+
+    <section class="container">
+        <div class="card white card-pt max-height-card">
+          <nav class="pl-1 darken-3 blue">
+              <a href="#" class="brand-logo">
+                  <img src=../images/avatar/avatar-1.png width="40">
+              </a>
+          </nav>
+          <div class="card-content dark-text">
+            <div class="mensagge-user">
+              <ul>
+                <li>
+                  <img src=../images/avatar/avatar-1.png width="50">
+                  <span class="title-user">Eduardo <time>10-20-2019</time></span>
+                </li>
+                <li id="mensagge">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quibusdam.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="mensagge-user">
+                <ul>
+                  <li >
+                    <img src=../images/avatar/avatar-1.png width="50" id="avatar-user">
+                    <span id="name-user">Eduardo <time id="date">10-20-2019</time></span>
+                  </li>
+                  <li id="mensagge">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quibusdam.</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="mensagge-user">
+                  <ul>
+                    <li>
+                      <img src=../images/avatar/avatar-1.png width="50">
+                      <span class="title-user">Eduardo <time>10-20-2019</time></span>
+                    </li>
+                    <li id="mensagge">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quibusdam.</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="mensagge-user">
+              <ul>
+                <li>
+                  <img src=../images/avatar/avatar-1.png width="50">
+                  <span class="title-user">Eduardo <time>10-20-2019</time></span>
+                </li>
+                <li id="mensagge">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quibusdam.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card-input">
+            <div class="row">
+                <div class="input-field col s10">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Mensaje</label>
+                </div>
+                <div class="input-field  col s2">
+                    <button class="btn waves-effect waves-light blue" id="send" type="submit" name="action">
+                        <i class="material-icons right">send</i>
+                      </button>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+        
+    </section>
+    
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="../js/materialize.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
